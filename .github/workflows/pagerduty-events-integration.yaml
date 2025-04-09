@@ -11,10 +11,10 @@
 on:
   push:
     branches:
-      - leo/testing-pd-integration
+      - main
   pull_request:
     branches:
-      - leo/testing-pd-integration
+      - main
 
 jobs:
   send-pagerduty-change-event:
